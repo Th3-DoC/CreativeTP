@@ -1,0 +1,53 @@
+name: CreativeTP
+load: POSTWORLD
+version: ${project.version}
+main: me.th3doc.creativetp.Main
+api-version: 1.13
+authors: [Th3_DoC]
+description: TP Between Creative and Survival!
+
+commands:
+  tpc:
+    description: TP Between Creative & Survival!
+    permission: creativetp.tp.command
+
+permissions:
+  creativetp.*:
+    description: Permissions for CreativeTP.
+    default: op
+    children:
+      creativetp.tp.*:
+        description: AllowPlayers Creative TP Privlages.
+        default : op
+        children:
+          creative.tp.delay:
+            description: Creative TP Delay Bypass.
+            default: op
+          creativetp.tp.void:
+            description: TP To A Void Creative World.
+            default: op
+          creativetp.tp.normal:
+            description: TP To A Regular Creative Overworld.
+            default: op
+          creativetp.tp.command:
+            description: Enable Command Access.
+            default: op
+      creativetp.world.*:
+        description: World manipulation.
+        default: op
+        children:
+          creativetp.world.reload:
+            description: Reload CreativeTP Config.
+            default: op
+          creativetp.world.create:
+            description: Create New Worlds, Set Generator Settings.
+            default: op
+          creativetp.world.set:
+            description: Set The Creative Access Worlds.
+            default: op
+          creativetp.world.perm:
+            description: Bypass Permission Changes.
+            default: op
+          creativetp.world.gm:
+            description: Bypass World Gamemode Changes.
+            default: op

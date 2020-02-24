@@ -1,0 +1,22 @@
+#Set Default Creative World
+CreativeWorld: creative
+
+#Set Default Nether == NOT IMPLEMENTED
+Nether: creative_nether
+
+#Set Default End == NOT IMPLEMENTED
+TheEnd: creative_the_end
+
+#Set Default Void World == NOT IMPLEMENTED
+VoidWorld: void
+
+#Safe World Loads
+#Note If Creating when onEnable() This May Crash If The List Is To Long(Based On Available Server Ram)
+SafeWorlds:
+  - creative
+
+#Unsafe World Loads, Import these OnWorldLoad
+UnknownWorlds:
+  -
+creative:
+  Environment: NORMAL

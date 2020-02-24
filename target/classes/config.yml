@@ -1,0 +1,14 @@
+#HubWorld, This Might Be The Same As OverWorld.
+#Both Entries Are Needed, Even If They Are The Same!
+HubWorld: world
+
+#Declare Base Worlds, Change These If You Use Custom Names.
+BaseWorlds:
+  - world
+  - world_nether
+  - world_the_end
+
+#Time Delay For Teleport, Between Creative & Survival.
+SurvivalDelay: 100
+CreativeDelay: 0
+opNoDelay: true

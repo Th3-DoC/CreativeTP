@@ -1,0 +1,49 @@
+//ADD CUSTOM COMMANDS
+//SET TABCOMPLETE/COMMAND PERM HEIRCHY(Show only if you have the perm)
+//SET DELAY PERM ACTIVATED IF OP DELAY IS TRUE
+
+//ADD MULTIPLE WORLD ACCESS\\ VOID, FLAT, NORMAL, NETHER
+//ADD INVENTORY MANAGEMENT
+*****************************
+//GENERATOR PACKAGE/CLASSES\\
+*****************************
+//GENERATE NORMAL/NETHER WORLD TOGETHER...FLAT/VOID ?OPTIONAL?
+//SET WORLD BORDERS TO MINIMIZE LAG
+//WORLD GENERATOR SETTINGS\\ FLAT/STRUCTURES/ETC.
+Void Gen = minecraft:air;minecraft:the_void;decoration
+
+************************************************************************************************************************
+
+**********************
+//SAFE WORLD CHANGES\\
+**********************
+Set your worlds freely on the fly, With no need to worry about fetching players ! It Will Work Itself Out !
+***************
+//DELAY TIMER\\
+***************
+Set the delay from survival as well as from creative !
+Op Instant TP can be set in config !
+**************************************************
+//SET COMMANDS AVAILABLE ONLY IN CREATIVE WORLDS\\
+**************************************************
+Pick from a wide range of commands, setup to be usable on entities only in creative !
+Supports safe EssentialsX commands !
+Let me know if we need more built-in plugin support !
+You can set any missing permissions for creative players
+
+//LIST COMMANDS HERE\\
+**CreativeTP Commands**
+/tpc - Creative Overworld
+/tpc void - Void World
+/tpc setworld <name>
+/tpc createworld <name> <Environment>
+**MC/Bukkit Commands**
+/weather
+/time
+/setblock
+/fill
+/seed
+*coming*
+/effect
+/clear
+/tp
